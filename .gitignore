@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+/build
+
+# testing
+coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Optional files
+.DS_Store
+Thumbs.db
+
+# local packages
+*.tgz
+
+# IDE
+.idea
+.vscode
